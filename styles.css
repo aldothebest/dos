@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --hola:rgb(137, 10, 255);
+    font-size:62%;
+    --hola2:rgb(236, 95, 0);
+    
+   }
+.container-main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    gap: 50px 50px;
+}
+.parrafos{
+    width: 900px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+button{
+    color: white;
+    background:blueviolet;
+    width:120px;
+}
+.imagen-yesica{
+    width:500px;
+    height:500px;
+    background-color:yellow;
+}
